@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>3D Solar System</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { margin: 0; overflow: hidden; }
+    canvas { display: block; }
+  </style>
+</head>
+<body>
+  <div id="controls">
+      <button id="themeToggleBtn">Toggle Theme</button>
+      <button id="toggleBtn">Pause</button>
+  </div>
+
+<!-- ✅ Load Three.js from unpkg (older version that supports global OrbitControls) -->
+<script src="https://unpkg.com/three@0.130.1/build/three.min.js"></script>
+
+<!-- ✅ Load OrbitControls for r130 from unpkg -->
+<script src="https://unpkg.com/three@0.130.1/examples/js/controls/OrbitControls.js"></script>
+
+<!-- ✅ Your custom script -->
+<script src="script.js"></script>
+
+
+
+</body>
+</html>

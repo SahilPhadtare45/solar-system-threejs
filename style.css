@@ -1,0 +1,72 @@
+#controls {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 10px;
+  border-radius: 8px;
+  z-index: 10;
+  font-family: sans-serif;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+#controls label {
+  font-size: 14px;
+  display: block;
+  margin: 8px 0 2px;
+}
+
+#controls input[type="range"] {
+  width: 120px;
+}
+
+#toggleBtn {
+  margin-top: 10px;
+  padding: 6px 12px;
+  font-size: 14px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#toggleBtn:hover {
+  background-color: #555;
+}
+
+/* Default light theme */
+body {
+  background-color: white;
+  color: black;
+}
+
+#controls.light {
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #000;
+}
+
+#controls.dark {
+  background-color: rgba(34, 34, 34, 0.85);
+  color: #fff;
+}
+
+button {
+  margin: 4px 0;
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#controls.dark button {
+  background-color: #444;
+  color: #fff;
+}
+
+#controls.light button {
+  background-color: #eee;
+  color: #000;
+}
