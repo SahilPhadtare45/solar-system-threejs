@@ -13,10 +13,6 @@ This project is a browser-based 3D simulation of our solar system using **Three.
 - Tooltip on hover displaying planet name, orbit radius, and speed
 - Dynamic starfield background
 
-## 🖼️ Preview
-
-![Solar System Screenshot](preview.png)
-
 ## 🛠️ Technologies Used
 
 - HTML5 / CSS3
